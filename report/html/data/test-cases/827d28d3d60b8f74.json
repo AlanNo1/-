@@ -1,0 +1,221 @@
+{
+  "uid" : "827d28d3d60b8f74",
+  "name" : "test_login[django-fls@132302007-DJANGO]",
+  "fullName" : "scripts.mp.test_publish_article.TestPublishArticle#test_login",
+  "historyId" : "20394994a158a08c570caddf508816bb",
+  "time" : {
+    "start" : 1634486614072,
+    "stop" : 1634486614976,
+    "duration" : 904
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestPublishArticle",
+    "time" : {
+      "start" : 1634486611153,
+      "stop" : 1634486614070,
+      "duration" : 2917
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录的测试用例",
+      "time" : {
+        "start" : 1634486614072,
+        "stop" : 1634486614976,
+        "duration" : 904
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "输入账号",
+        "time" : {
+          "start" : 1634486614075,
+          "stop" : 1634486614171,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "mobile",
+          "value" : "'django'"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "输入密码",
+        "time" : {
+          "start" : 1634486614171,
+          "stop" : 1634486614276,
+          "duration" : 105
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "code",
+          "value" : "'fls@132302007'"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "点击登录按钮",
+        "time" : {
+          "start" : 1634486614276,
+          "stop" : 1634486614717,
+          "duration" : 441
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "7d83f3cd0a1657f3",
+        "name" : "登录截图",
+        "source" : "7d83f3cd0a1657f3.png",
+        "type" : "image/png",
+        "size" : 98384
+      } ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'django'"
+      }, {
+        "name" : "code",
+        "value" : "'fls@132302007'"
+      }, {
+        "name" : "expect",
+        "value" : "'DJANGO'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7ca0d8bdd0d8f53",
+      "name" : "log",
+      "source" : "7ca0d8bdd0d8f53.txt",
+      "type" : "text/plain",
+      "size" : 7698
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestPublishArticle::0",
+    "time" : {
+      "start" : 1634486620443,
+      "stop" : 1634486622536,
+      "duration" : 2093
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts.mp"
+  }, {
+    "name" : "suite",
+    "value" : "test_publish_article"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPublishArticle"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D8MDJFT"
+  }, {
+    "name" : "thread",
+    "value" : "4492-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.mp.test_publish_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'fls@132302007'"
+  }, {
+    "name" : "expect",
+    "value" : "'DJANGO'"
+  }, {
+    "name" : "username",
+    "value" : "'django'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "ed5d4e12a1571539",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634485833715,
+        "stop" : 1634485834553,
+        "duration" : 838
+      }
+    }, {
+      "uid" : "d1c143ba0b0f501",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634485765709,
+        "stop" : 1634485766533,
+        "duration" : 824
+      }
+    }, {
+      "uid" : "843644afd9aa78a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634485545321,
+        "stop" : 1634485545998,
+        "duration" : 677
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "827d28d3d60b8f74.json",
+  "parameterValues" : [ "'fls@132302007'", "'DJANGO'", "'django'" ]
+}

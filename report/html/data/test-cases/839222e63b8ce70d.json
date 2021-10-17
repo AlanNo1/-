@@ -1,0 +1,170 @@
+{
+  "uid" : "839222e63b8ce70d",
+  "name" : "test_publish_article[发布新闻_2021_1017_0001-自动化测试发布_0001-行业新闻-成功添加了 新闻]",
+  "fullName" : "scripts.mp.test_publish_article.TestPublishArticle#test_publish_article",
+  "historyId" : "d4bb82871578b47e69e155ed92f4478c",
+  "time" : {
+    "start" : 1634486614982,
+    "stop" : 1634486620435,
+    "duration" : 5453
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestPublishArticle",
+    "time" : {
+      "start" : 1634486611153,
+      "stop" : 1634486614070,
+      "duration" : 2917
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发布文章的测试用例",
+      "time" : {
+        "start" : 1634486614982,
+        "stop" : 1634486620435,
+        "duration" : 5453
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'发布新闻_2021_1017_0001'"
+      }, {
+        "name" : "content",
+        "value" : "'自动化测试发布_0001'"
+      }, {
+        "name" : "type",
+        "value" : "'行业新闻'"
+      }, {
+        "name" : "expect",
+        "value" : "'成功添加了 新闻'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c0157f629b8b94a8",
+      "name" : "log",
+      "source" : "c0157f629b8b94a8.txt",
+      "type" : "text/plain",
+      "size" : 11552
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestPublishArticle::0",
+    "time" : {
+      "start" : 1634486620443,
+      "stop" : 1634486622536,
+      "duration" : 2093
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts.mp"
+  }, {
+    "name" : "suite",
+    "value" : "test_publish_article"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPublishArticle"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D8MDJFT"
+  }, {
+    "name" : "thread",
+    "value" : "4492-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.mp.test_publish_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "content",
+    "value" : "'自动化测试发布_0001'"
+  }, {
+    "name" : "expect",
+    "value" : "'成功添加了 新闻'"
+  }, {
+    "name" : "title",
+    "value" : "'发布新闻_2021_1017_0001'"
+  }, {
+    "name" : "type",
+    "value" : "'行业新闻'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "f46045ca8870f775",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634485834559,
+        "stop" : 1634485840368,
+        "duration" : 5809
+      }
+    }, {
+      "uid" : "1daa1a0e14c36e4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634485766539,
+        "stop" : 1634485772873,
+        "duration" : 6334
+      }
+    }, {
+      "uid" : "85b7172a7a959d4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634485546005,
+        "stop" : 1634485552506,
+        "duration" : 6501
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "839222e63b8ce70d.json",
+  "parameterValues" : [ "'自动化测试发布_0001'", "'成功添加了 新闻'", "'发布新闻_2021_1017_0001'", "'行业新闻'" ]
+}

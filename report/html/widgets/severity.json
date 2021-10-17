@@ -1,0 +1,21 @@
+[ {
+  "uid" : "839222e63b8ce70d",
+  "name" : "test_publish_article[发布新闻_2021_1017_0001-自动化测试发布_0001-行业新闻-成功添加了 新闻]",
+  "time" : {
+    "start" : 1634486614982,
+    "stop" : 1634486620435,
+    "duration" : 5453
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "827d28d3d60b8f74",
+  "name" : "test_login[django-fls@132302007-DJANGO]",
+  "time" : {
+    "start" : 1634486614072,
+    "stop" : 1634486614976,
+    "duration" : 904
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 18 00:03:34 CST 2021","Mon Oct 18 00:03:34 CST 2021","904","scripts.mp","test_publish_article","TestPublishArticle","","","test_login[django-fls@132302007-DJANGO]",""
+"passed","Mon Oct 18 00:03:34 CST 2021","Mon Oct 18 00:03:40 CST 2021","5453","scripts.mp","test_publish_article","TestPublishArticle","","","test_publish_article[发布新闻_2021_1017_0001-自动化测试发布_0001-行业新闻-成功添加了 新闻]",""

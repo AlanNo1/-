@@ -1,0 +1,8 @@
+2021-10-17 23:38:39,695 INFO [root] [test_publish_article.py(test_login:30)] - 用例的数据如下：用户名：django， 密码：fls@132302007， 预期结果：DJANGO
+2021-10-17 23:38:40,711 INFO [root] [test_publish_article.py(test_publish_article:42)] - 用例的数据如下：新闻标题：发布新闻_2021_1017_0001， 新闻内容：自动化测试发布_0001，新闻类型：行业新闻， 预期结果：成功添加了 新闻
+2021-10-17 23:45:45,320 INFO [root] [test_publish_article.py(test_login:30)] - 用例的数据如下：用户名：django， 密码：fls@132302007， 预期结果：DJANGO
+2021-10-17 23:45:46,005 INFO [root] [test_publish_article.py(test_publish_article:42)] - 用例的数据如下：新闻标题：发布新闻_2021_1017_0001， 新闻内容：自动化测试发布_0001，新闻类型：行业新闻， 预期结果：成功添加了 新闻
+2021-10-17 23:49:25,708 INFO [root] [test_publish_article.py(test_login:31)] - 用例的数据如下：用户名：django， 密码：fls@132302007， 预期结果：DJANGO
+2021-10-17 23:49:26,538 INFO [root] [test_publish_article.py(test_publish_article:44)] - 用例的数据如下：新闻标题：发布新闻_2021_1017_0001， 新闻内容：自动化测试发布_0001，新闻类型：行业新闻， 预期结果：成功添加了 新闻
+2021-10-17 23:50:33,715 INFO [root] [test_publish_article.py(test_login:31)] - 用例的数据如下：用户名：django， 密码：fls@132302007， 预期结果：DJANGO
+2021-10-17 23:50:34,559 INFO [root] [test_publish_article.py(test_publish_article:44)] - 用例的数据如下：新闻标题：发布新闻_2021_1017_0001， 新闻内容：自动化测试发布_0001，新闻类型：行业新闻， 预期结果：成功添加了 新闻

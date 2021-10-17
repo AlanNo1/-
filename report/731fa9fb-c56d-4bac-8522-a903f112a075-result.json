@@ -1,0 +1,134 @@
+{
+  "name": "test_login[django-fls@132302007-DJANGO]",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "登录的测试用例",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "输入账号",
+          "status": "passed",
+          "parameters": [
+            {
+              "name": "mobile",
+              "value": "'django'"
+            }
+          ],
+          "start": 1634485765710,
+          "stop": 1634485765785
+        },
+        {
+          "name": "输入密码",
+          "status": "passed",
+          "parameters": [
+            {
+              "name": "code",
+              "value": "'fls@132302007'"
+            }
+          ],
+          "start": 1634485765785,
+          "stop": 1634485765871
+        },
+        {
+          "name": "点击登录按钮",
+          "status": "passed",
+          "start": 1634485765871,
+          "stop": 1634485766293
+        }
+      ],
+      "attachments": [
+        {
+          "name": "登录截图",
+          "source": "f73e7086-0022-46bb-a4e7-b2b55343cda0-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [
+        {
+          "name": "username",
+          "value": "'django'"
+        },
+        {
+          "name": "code",
+          "value": "'fls@132302007'"
+        },
+        {
+          "name": "expect",
+          "value": "'DJANGO'"
+        }
+      ],
+      "start": 1634485765709,
+      "stop": 1634485766533
+    }
+  ],
+  "attachments": [
+    {
+      "name": "log",
+      "source": "c70d2fd5-09fb-4fec-876a-a18e6cd508c1-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "'django'"
+    },
+    {
+      "name": "code",
+      "value": "'fls@132302007'"
+    },
+    {
+      "name": "expect",
+      "value": "'DJANGO'"
+    }
+  ],
+  "start": 1634485765709,
+  "stop": 1634485766533,
+  "uuid": "b499727d-d1d3-4611-9b6c-7b22dd857e0f",
+  "historyId": "20394994a158a08c570caddf508816bb",
+  "testCaseId": "fe3c4e6754bae803741afd8a2398bc1f",
+  "fullName": "scripts.mp.test_publish_article.TestPublishArticle#test_login",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=1)"
+    },
+    {
+      "name": "parentSuite",
+      "value": "scripts.mp"
+    },
+    {
+      "name": "suite",
+      "value": "test_publish_article"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPublishArticle"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-D8MDJFT"
+    },
+    {
+      "name": "thread",
+      "value": "8324-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "scripts.mp.test_publish_article"
+    }
+  ]
+}

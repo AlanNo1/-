@@ -1,0 +1,41 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "scripts.mp",
+    "children" : [ {
+      "name" : "test_publish_article",
+      "children" : [ {
+        "name" : "TestPublishArticle",
+        "children" : [ {
+          "name" : "test_login[django-fls@132302007-DJANGO]",
+          "uid" : "827d28d3d60b8f74",
+          "parentUid" : "760c8b1fae147e01509b5a1910739fde",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634486614072,
+            "stop" : 1634486614976,
+            "duration" : 904
+          },
+          "flaky" : false,
+          "parameters" : [ "'fls@132302007'", "'DJANGO'", "'django'" ]
+        }, {
+          "name" : "test_publish_article[发布新闻_2021_1017_0001-自动化测试发布_0001-行业新闻-成功添加了 新闻]",
+          "uid" : "839222e63b8ce70d",
+          "parentUid" : "760c8b1fae147e01509b5a1910739fde",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634486614982,
+            "stop" : 1634486620435,
+            "duration" : 5453
+          },
+          "flaky" : false,
+          "parameters" : [ "'自动化测试发布_0001'", "'成功添加了 新闻'", "'发布新闻_2021_1017_0001'", "'行业新闻'" ]
+        } ],
+        "uid" : "760c8b1fae147e01509b5a1910739fde"
+      } ],
+      "uid" : "b554f15c839a5c3bd9bd3721c9420d90"
+    } ],
+    "uid" : "b6f8eba36fa5fce7d5071d93362c2619"
+  } ]
+}

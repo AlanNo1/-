@@ -1,0 +1,105 @@
+{
+  "name": "test_login[django-fls@132302007-DJANGO]",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "输入账号",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "mobile",
+          "value": "'django'"
+        }
+      ],
+      "start": 1634485545321,
+      "stop": 1634485545396
+    },
+    {
+      "name": "输入密码",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "code",
+          "value": "'fls@132302007'"
+        }
+      ],
+      "start": 1634485545396,
+      "stop": 1634485545483
+    },
+    {
+      "name": "点击登录按钮",
+      "status": "passed",
+      "start": 1634485545484,
+      "stop": 1634485545962
+    }
+  ],
+  "attachments": [
+    {
+      "name": "log",
+      "source": "a6eee4ee-d3f3-4dec-8965-8b8f3be7bf40-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "'django'"
+    },
+    {
+      "name": "code",
+      "value": "'fls@132302007'"
+    },
+    {
+      "name": "expect",
+      "value": "'DJANGO'"
+    }
+  ],
+  "start": 1634485545321,
+  "stop": 1634485545998,
+  "uuid": "27a01014-c607-4523-930b-9000e2363df1",
+  "historyId": "20394994a158a08c570caddf508816bb",
+  "testCaseId": "fe3c4e6754bae803741afd8a2398bc1f",
+  "fullName": "scripts.mp.test_publish_article.TestPublishArticle#test_login",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=1)"
+    },
+    {
+      "name": "parentSuite",
+      "value": "scripts.mp"
+    },
+    {
+      "name": "suite",
+      "value": "test_publish_article"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPublishArticle"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-D8MDJFT"
+    },
+    {
+      "name": "thread",
+      "value": "2232-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "scripts.mp.test_publish_article"
+    }
+  ]
+}

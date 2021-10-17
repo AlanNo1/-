@@ -1,0 +1,99 @@
+{
+  "name": "test_publish_article[发布新闻_2021_1017_0001-自动化测试发布_0001-行业新闻-成功添加了 新闻]",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "发布文章的测试用例",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "title",
+          "value": "'发布新闻_2021_1017_0001'"
+        },
+        {
+          "name": "content",
+          "value": "'自动化测试发布_0001'"
+        },
+        {
+          "name": "type",
+          "value": "'行业新闻'"
+        },
+        {
+          "name": "expect",
+          "value": "'成功添加了 新闻'"
+        }
+      ],
+      "start": 1634485834559,
+      "stop": 1634485840368
+    }
+  ],
+  "attachments": [
+    {
+      "name": "log",
+      "source": "c3279852-215c-44fa-a201-eb61843cdb7f-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "title",
+      "value": "'发布新闻_2021_1017_0001'"
+    },
+    {
+      "name": "content",
+      "value": "'自动化测试发布_0001'"
+    },
+    {
+      "name": "type",
+      "value": "'行业新闻'"
+    },
+    {
+      "name": "expect",
+      "value": "'成功添加了 新闻'"
+    }
+  ],
+  "start": 1634485834559,
+  "stop": 1634485840368,
+  "uuid": "28f07c76-f69d-41f0-b42b-57b60420d89e",
+  "historyId": "d4bb82871578b47e69e155ed92f4478c",
+  "testCaseId": "a46bb9f9509cb1ae5dd0a4bd99b23530",
+  "fullName": "scripts.mp.test_publish_article.TestPublishArticle#test_publish_article",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=1)"
+    },
+    {
+      "name": "parentSuite",
+      "value": "scripts.mp"
+    },
+    {
+      "name": "suite",
+      "value": "test_publish_article"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPublishArticle"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-D8MDJFT"
+    },
+    {
+      "name": "thread",
+      "value": "10692-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "scripts.mp.test_publish_article"
+    }
+  ]
+}

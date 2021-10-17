@@ -1,0 +1,56 @@
+{
+  "name": "test_login",
+  "status": "passed",
+  "description": "\n        测试数据： 用户名：testid   密码:testpwd123\n        :return:\n        ",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "c4751d39-f5a3-4973-ab31-237257f382cf-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1594795387937,
+  "stop": 1594795389177,
+  "uuid": "8405fca0-16a8-4e52-a358-f55d7f3e4b44",
+  "historyId": "bf15e4edbb2e1226537f59afff2c84aa",
+  "testCaseId": "79926715007e9a283b1b0d09a473f224",
+  "fullName": "mis.test_login.TestLogin#test_login",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=1001)"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mis"
+    },
+    {
+      "name": "suite",
+      "value": "test_login"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestLogin"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-KQP6EJ3A"
+    },
+    {
+      "name": "thread",
+      "value": "16544-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "mis.test_login"
+    }
+  ]
+}

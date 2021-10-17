@@ -1,0 +1,117 @@
+{
+  "uid" : "85b7172a7a959d4c",
+  "name" : "test_publish_article[发布新闻_2021_1017_0001-自动化测试发布_0001-行业新闻-成功添加了 新闻]",
+  "fullName" : "scripts.mp.test_publish_article.TestPublishArticle#test_publish_article",
+  "historyId" : "d4bb82871578b47e69e155ed92f4478c",
+  "time" : {
+    "start" : 1634485546005,
+    "stop" : 1634485552506,
+    "duration" : 6501
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestPublishArticle",
+    "time" : {
+      "start" : 1634485542934,
+      "stop" : 1634485545320,
+      "duration" : 2386
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cbe178a588ba7f49",
+      "name" : "log",
+      "source" : "cbe178a588ba7f49.txt",
+      "type" : "text/plain",
+      "size" : 11552
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestPublishArticle::0",
+    "time" : {
+      "start" : 1634485552509,
+      "stop" : 1634485554660,
+      "duration" : 2151
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts.mp"
+  }, {
+    "name" : "suite",
+    "value" : "test_publish_article"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPublishArticle"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D8MDJFT"
+  }, {
+    "name" : "thread",
+    "value" : "2232-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.mp.test_publish_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "content",
+    "value" : "'自动化测试发布_0001'"
+  }, {
+    "name" : "expect",
+    "value" : "'成功添加了 新闻'"
+  }, {
+    "name" : "title",
+    "value" : "'发布新闻_2021_1017_0001'"
+  }, {
+    "name" : "type",
+    "value" : "'行业新闻'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "85b7172a7a959d4c.json",
+  "parameterValues" : [ "'自动化测试发布_0001'", "'成功添加了 新闻'", "'发布新闻_2021_1017_0001'", "'行业新闻'" ]
+}

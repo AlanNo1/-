@@ -1,0 +1,48 @@
+{
+  "name": "test_begin",
+  "status": "passed",
+  "start": 1594795380174,
+  "stop": 1594795380174,
+  "uuid": "b206fea4-a4e6-4a7d-8ff4-645d61922602",
+  "historyId": "34b5d562a81990155b50ec011715eab1",
+  "testCaseId": "033cabee6c2577d6b031bf7e3456f64a",
+  "fullName": "mis.test_begin.TestBegin#test_begin",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=1000)"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mis"
+    },
+    {
+      "name": "suite",
+      "value": "test_begin"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestBegin"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-KQP6EJ3A"
+    },
+    {
+      "name": "thread",
+      "value": "16544-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "mis.test_begin"
+    }
+  ]
+}

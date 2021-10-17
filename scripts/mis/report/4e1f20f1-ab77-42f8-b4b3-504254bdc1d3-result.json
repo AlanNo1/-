@@ -1,0 +1,55 @@
+{
+  "name": "test_audit_article",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "b7370d6d-1f2b-4a35-878e-1e785f4dc2e2-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1594795389182,
+  "stop": 1594795402097,
+  "uuid": "f3af742a-5043-466a-bce8-6bed6503d221",
+  "historyId": "31706e42f448fd21e0eeba87284f97c9",
+  "testCaseId": "9f00154e6c0f854ccbcac445dd3c7019",
+  "fullName": "mis.test_audit_artcle.TestAuditArticle#test_audit_article",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=1002)"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mis"
+    },
+    {
+      "name": "suite",
+      "value": "test_audit_artcle"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAuditArticle"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-KQP6EJ3A"
+    },
+    {
+      "name": "thread",
+      "value": "16544-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "mis.test_audit_artcle"
+    }
+  ]
+}
